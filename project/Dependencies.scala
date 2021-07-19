@@ -92,7 +92,7 @@ object Dependencies {
   val GCS = Seq(
     "com.google.cloud"               % "google-cloud-storage" % Versions.GCS,
     "com.google.cloud"               % "google-cloud-nio" % Versions.GCNio % IntegrationTest,
-    "commons-io"                     % "commons-io" % "2.6" % Test
+    "commons-io"                     % "commons-io" % "2.11.0" % Test
   ) ++ commonDependencies(hasIt = true)
 
   val Sqs = Seq(
