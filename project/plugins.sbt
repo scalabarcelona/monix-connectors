@@ -1,5 +1,5 @@
 addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.3.2")
-addSbtPlugin("org.scalameta"       % "sbt-mdoc"        % "2.2.20")
+addSbtPlugin("org.scalameta"       % "sbt-mdoc"        % "2.2.22")
 addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.25")
 addSbtPlugin("com.github.tkawachi"  % "sbt-doctest"     % "0.9.9")
 addSbtPlugin("com.eed3si9n"         % "sbt-unidoc"      % "0.4.3")
